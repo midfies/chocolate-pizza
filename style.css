@@ -136,7 +136,8 @@ article p{
   background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
   height: 6px;
   border: 0;
-  max-width: 960px;
+  max-width: 900px;
+  margin: 0 auto;  
 }
 
 footer hr{
