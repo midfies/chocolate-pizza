@@ -90,6 +90,7 @@ article p{
   background-image: url(img/list-bg.png);
   height: 300px;
   margin: 40px 0;
+  color: #706543;
 }
 #ingredients ul{
   display: inline-block;
@@ -97,12 +98,9 @@ article p{
   padding: 0;
   line-height: 1.5em;
   font-size: 1.3em;
-  list-style: square;
+  list-style: none;
 }
-#ingredients li{
-  content: "\2610";
-  font: 'Aller';
-}
+
 
 #bio{
   position: relative;
