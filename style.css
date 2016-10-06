@@ -3,6 +3,10 @@
   padding: 0;
 
 }
+@font-face {
+    font-family: thisFont;
+    src: url(sansation_light.woff);
+}
 body{
   width: 1024px;
 }
@@ -10,9 +14,62 @@ header{
   width: 900px;
   margin: 0 auto;
 }
+header div h1{
+  font-family: Yellowtail;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
 main{
   width: 900px;
   margin: 0 auto;
+}
+#hero{
+  position: relative;
+  margin-top: 40px;
+}
+#hero h1{
+  font-size: 2.6em;
+}
+#hero h3{
+  font-size: 0.9em;
+  color: grey;
+}
+#heroImg{
+  margin-top: 25px;
+}
+#print{
+  position: absolute;
+  top: 20px;
+  right: 90px;
+}
+article{
+  margin: 20px 0;
+}
+article p{
+  text-indent: 30px;
+  line-height: 1.3em;
+  font-size: 1.3em;
+  color: grey;
+}
+#ingredients{
+  background-image: url(img/list-bg.png);
+  height: 300px;
+  margin: 40px 0;
+}
+#ingredients ul{
+  display: inline-block;
+  margin: 38px 20px 20px 120px;
+  padding: 0;
+  line-height: 1.5em;
+  font-size: 1.3em;
+  list-style: square;
+}
+#ingredients li{
+  content: "\2610";
+  font: 'Aller';
 }
 
 #bio{
